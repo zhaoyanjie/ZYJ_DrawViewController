@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC01A45B1D1D109700D63743 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FC01A45A1D1D109700D63743 /* main.m */; };
+		FC01A45E1D1D109700D63743 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC01A45D1D1D109700D63743 /* AppDelegate.m */; };
+		FC01A4611D1D109700D63743 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC01A4601D1D109700D63743 /* ViewController.m */; };
+		FC01A4641D1D109700D63743 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC01A4621D1D109700D63743 /* Main.storyboard */; };
+		FC01A4661D1D109700D63743 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC01A4651D1D109700D63743 /* Assets.xcassets */; };
+		FC01A4691D1D109700D63743 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC01A4671D1D109700D63743 /* LaunchScreen.storyboard */; };
+		FC01A4741D1D109700D63743 /* ZYJ_DrawViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC01A4731D1D109700D63743 /* ZYJ_DrawViewControllerTests.m */; };
+		FC01A47F1D1D109700D63743 /* ZYJ_DrawViewControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC01A47E1D1D109700D63743 /* ZYJ_DrawViewControllerUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FC01A4701D1D109700D63743 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC01A44E1D1D109600D63743 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC01A4551D1D109600D63743;
+			remoteInfo = ZYJ_DrawViewController;
+		};
+		FC01A47B1D1D109700D63743 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC01A44E1D1D109600D63743 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC01A4551D1D109600D63743;
+			remoteInfo = ZYJ_DrawViewController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FC01A4561D1D109600D63743 /* ZYJ_DrawViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZYJ_DrawViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC01A45A1D1D109700D63743 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FC01A45C1D1D109700D63743 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FC01A45D1D1D109700D63743 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FC01A45F1D1D109700D63743 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FC01A4601D1D109700D63743 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FC01A4631D1D109700D63743 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FC01A4651D1D109700D63743 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FC01A4681D1D109700D63743 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FC01A46A1D1D109700D63743 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC01A46F1D1D109700D63743 /* ZYJ_DrawViewControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZYJ_DrawViewControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC01A4731D1D109700D63743 /* ZYJ_DrawViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYJ_DrawViewControllerTests.m; sourceTree = "<group>"; };
+		FC01A4751D1D109700D63743 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC01A47A1D1D109700D63743 /* ZYJ_DrawViewControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZYJ_DrawViewControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC01A47E1D1D109700D63743 /* ZYJ_DrawViewControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYJ_DrawViewControllerUITests.m; sourceTree = "<group>"; };
+		FC01A4801D1D109700D63743 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC01A4531D1D109600D63743 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC01A46C1D1D109700D63743 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC01A4771D1D109700D63743 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC01A44D1D1D109600D63743 = {
+			isa = PBXGroup;
+			children = (
+				FC01A4581D1D109700D63743 /* ZYJ_DrawViewController */,
+				FC01A4721D1D109700D63743 /* ZYJ_DrawViewControllerTests */,
+				FC01A47D1D1D109700D63743 /* ZYJ_DrawViewControllerUITests */,
+				FC01A4571D1D109600D63743 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC01A4571D1D109600D63743 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC01A4561D1D109600D63743 /* ZYJ_DrawViewController.app */,
+				FC01A46F1D1D109700D63743 /* ZYJ_DrawViewControllerTests.xctest */,
+				FC01A47A1D1D109700D63743 /* ZYJ_DrawViewControllerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC01A4581D1D109700D63743 /* ZYJ_DrawViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FC01A45C1D1D109700D63743 /* AppDelegate.h */,
+				FC01A45D1D1D109700D63743 /* AppDelegate.m */,
+				FC01A45F1D1D109700D63743 /* ViewController.h */,
+				FC01A4601D1D109700D63743 /* ViewController.m */,
+				FC01A4621D1D109700D63743 /* Main.storyboard */,
+				FC01A4651D1D109700D63743 /* Assets.xcassets */,
+				FC01A4671D1D109700D63743 /* LaunchScreen.storyboard */,
+				FC01A46A1D1D109700D63743 /* Info.plist */,
+				FC01A4591D1D109700D63743 /* Supporting Files */,
+			);
+			path = ZYJ_DrawViewController;
+			sourceTree = "<group>";
+		};
+		FC01A4591D1D109700D63743 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FC01A45A1D1D109700D63743 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FC01A4721D1D109700D63743 /* ZYJ_DrawViewControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				FC01A4731D1D109700D63743 /* ZYJ_DrawViewControllerTests.m */,
+				FC01A4751D1D109700D63743 /* Info.plist */,
+			);
+			path = ZYJ_DrawViewControllerTests;
+			sourceTree = "<group>";
+		};
+		FC01A47D1D1D109700D63743 /* ZYJ_DrawViewControllerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FC01A47E1D1D109700D63743 /* ZYJ_DrawViewControllerUITests.m */,
+				FC01A4801D1D109700D63743 /* Info.plist */,
+			);
+			path = ZYJ_DrawViewControllerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC01A4551D1D109600D63743 /* ZYJ_DrawViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC01A4831D1D109700D63743 /* Build configuration list for PBXNativeTarget "ZYJ_DrawViewController" */;
+			buildPhases = (
+				FC01A4521D1D109600D63743 /* Sources */,
+				FC01A4531D1D109600D63743 /* Frameworks */,
+				FC01A4541D1D109600D63743 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZYJ_DrawViewController;
+			productName = ZYJ_DrawViewController;
+			productReference = FC01A4561D1D109600D63743 /* ZYJ_DrawViewController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FC01A46E1D1D109700D63743 /* ZYJ_DrawViewControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC01A4861D1D109700D63743 /* Build configuration list for PBXNativeTarget "ZYJ_DrawViewControllerTests" */;
+			buildPhases = (
+				FC01A46B1D1D109700D63743 /* Sources */,
+				FC01A46C1D1D109700D63743 /* Frameworks */,
+				FC01A46D1D1D109700D63743 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC01A4711D1D109700D63743 /* PBXTargetDependency */,
+			);
+			name = ZYJ_DrawViewControllerTests;
+			productName = ZYJ_DrawViewControllerTests;
+			productReference = FC01A46F1D1D109700D63743 /* ZYJ_DrawViewControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FC01A4791D1D109700D63743 /* ZYJ_DrawViewControllerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC01A4891D1D109700D63743 /* Build configuration list for PBXNativeTarget "ZYJ_DrawViewControllerUITests" */;
+			buildPhases = (
+				FC01A4761D1D109700D63743 /* Sources */,
+				FC01A4771D1D109700D63743 /* Frameworks */,
+				FC01A4781D1D109700D63743 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC01A47C1D1D109700D63743 /* PBXTargetDependency */,
+			);
+			name = ZYJ_DrawViewControllerUITests;
+			productName = ZYJ_DrawViewControllerUITests;
+			productReference = FC01A47A1D1D109700D63743 /* ZYJ_DrawViewControllerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC01A44E1D1D109600D63743 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "光巨力";
+				TargetAttributes = {
+					FC01A4551D1D109600D63743 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					FC01A46E1D1D109700D63743 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = FC01A4551D1D109600D63743;
+					};
+					FC01A4791D1D109700D63743 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = FC01A4551D1D109600D63743;
+					};
+				};
+			};
+			buildConfigurationList = FC01A4511D1D109600D63743 /* Build configuration list for PBXProject "ZYJ_DrawViewController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FC01A44D1D1D109600D63743;
+			productRefGroup = FC01A4571D1D109600D63743 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC01A4551D1D109600D63743 /* ZYJ_DrawViewController */,
+				FC01A46E1D1D109700D63743 /* ZYJ_DrawViewControllerTests */,
+				FC01A4791D1D109700D63743 /* ZYJ_DrawViewControllerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC01A4541D1D109600D63743 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC01A4691D1D109700D63743 /* LaunchScreen.storyboard in Resources */,
+				FC01A4661D1D109700D63743 /* Assets.xcassets in Resources */,
+				FC01A4641D1D109700D63743 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC01A46D1D1D109700D63743 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC01A4781D1D109700D63743 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC01A4521D1D109600D63743 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC01A4611D1D109700D63743 /* ViewController.m in Sources */,
+				FC01A45E1D1D109700D63743 /* AppDelegate.m in Sources */,
+				FC01A45B1D1D109700D63743 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC01A46B1D1D109700D63743 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC01A4741D1D109700D63743 /* ZYJ_DrawViewControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC01A4761D1D109700D63743 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC01A47F1D1D109700D63743 /* ZYJ_DrawViewControllerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FC01A4711D1D109700D63743 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC01A4551D1D109600D63743 /* ZYJ_DrawViewController */;
+			targetProxy = FC01A4701D1D109700D63743 /* PBXContainerItemProxy */;
+		};
+		FC01A47C1D1D109700D63743 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC01A4551D1D109600D63743 /* ZYJ_DrawViewController */;
+			targetProxy = FC01A47B1D1D109700D63743 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FC01A4621D1D109700D63743 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC01A4631D1D109700D63743 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FC01A4671D1D109700D63743 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC01A4681D1D109700D63743 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FC01A4811D1D109700D63743 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FC01A4821D1D109700D63743 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC01A4841D1D109700D63743 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZYJ_DrawViewController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "guangju.ZYJ-DrawViewController";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FC01A4851D1D109700D63743 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZYJ_DrawViewController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "guangju.ZYJ-DrawViewController";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FC01A4871D1D109700D63743 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZYJ_DrawViewControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "guangju.ZYJ-DrawViewControllerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZYJ_DrawViewController.app/ZYJ_DrawViewController";
+			};
+			name = Debug;
+		};
+		FC01A4881D1D109700D63743 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZYJ_DrawViewControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "guangju.ZYJ-DrawViewControllerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZYJ_DrawViewController.app/ZYJ_DrawViewController";
+			};
+			name = Release;
+		};
+		FC01A48A1D1D109700D63743 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZYJ_DrawViewControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "guangju.ZYJ-DrawViewControllerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZYJ_DrawViewController;
+			};
+			name = Debug;
+		};
+		FC01A48B1D1D109700D63743 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZYJ_DrawViewControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "guangju.ZYJ-DrawViewControllerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZYJ_DrawViewController;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC01A4511D1D109600D63743 /* Build configuration list for PBXProject "ZYJ_DrawViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC01A4811D1D109700D63743 /* Debug */,
+				FC01A4821D1D109700D63743 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC01A4831D1D109700D63743 /* Build configuration list for PBXNativeTarget "ZYJ_DrawViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC01A4841D1D109700D63743 /* Debug */,
+				FC01A4851D1D109700D63743 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FC01A4861D1D109700D63743 /* Build configuration list for PBXNativeTarget "ZYJ_DrawViewControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC01A4871D1D109700D63743 /* Debug */,
+				FC01A4881D1D109700D63743 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FC01A4891D1D109700D63743 /* Build configuration list for PBXNativeTarget "ZYJ_DrawViewControllerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC01A48A1D1D109700D63743 /* Debug */,
+				FC01A48B1D1D109700D63743 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC01A44E1D1D109600D63743 /* Project object */;
+}
